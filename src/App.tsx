@@ -86,31 +86,29 @@ function App() {
   const aspect = window.innerWidth / window.innerHeight;
 
   return (
-    <div className="App">
-      <Canvas
-        camera={
-          new OrthographicCamera(
-            (frustumSize * aspect) / -2,
-            (frustumSize * aspect) / 2,
-            frustumSize / 2,
-            frustumSize / -2,
-            -1000,
-            1000
-          )
-        }
-      >
-        <CameraController />
-        <PickHelper />
-        <primitive object={new AxesHelper(10)} />
-        <ambientLight intensity={0.1} />
-        <hemisphereLight intensity={0.2} position={new Vector3(0, 50, 0)} />
-        <directionalLight
-          intensity={0.2}
-          position={new Vector3(-1, 1.75, 1).multiplyScalar(10)}
-        />
-        <ModelGallery modelUrls={roadTileUrls} />
-      </Canvas>
-    </div>
+    <Canvas
+      camera={
+        new OrthographicCamera(
+          (frustumSize * aspect) / -2,
+          (frustumSize * aspect) / 2,
+          frustumSize / 2,
+          frustumSize / -2,
+          -1000,
+          1000
+        )
+      }
+    >
+      <CameraController />
+      <PickHelper />
+      <primitive object={new AxesHelper(10)} />
+      <ambientLight intensity={0.1} />
+      <hemisphereLight intensity={0.2} position={new Vector3(0, 50, 0)} />
+      <directionalLight
+        intensity={0.2}
+        position={new Vector3(-1, 1.75, 1).multiplyScalar(10)}
+      />
+      <ModelGallery modelUrls={roadTileUrls} />
+    </Canvas>
   );
 }
 
