@@ -95,6 +95,7 @@ function App() {
           intensity={0.21}
           position={new Vector3(-1, 1.75, 1).multiplyScalar(10)}
         />
+        <pointLight intensity={0.2} position={new Vector3(5, 10, 0)} />
         <ModelGallery modelUrls={roadTileUrls} />
       </scene>
     </Canvas>
