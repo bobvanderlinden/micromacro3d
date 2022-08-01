@@ -1,14 +1,9 @@
-import { Suspense, useEffect, useRef, useState } from "react";
-import { useLoader, useThree, _roots } from "@react-three/fiber";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import reactLogo from "./assets/react.svg";
+import { useEffect, useRef, useState } from "react";
+import { useThree, _roots } from "@react-three/fiber";
 import "./App.css";
-import { padStart, range } from "lodash";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import {
-  ArrowHelper,
   AxesHelper,
-  Euler,
   Object3D,
   OrthographicCamera,
   Raycaster,
@@ -27,11 +22,7 @@ const roadTileUrls = Object.entries(
 
 function PickHelper() {
   const [rayCaster] = useState(() => new Raycaster());
-  const { mouse, scene, camera } = useThree((state) => ({
-    mouse: state.mouse,
-    scene: state.scene,
-    camera: state.camera,
-  }));
+  const { mouse, scene, camera } = useThree();
   const pickedObjectRef = useRef<Object3D>();
   useAnimationFrame(() => {
     rayCaster.setFromCamera(mouse, camera);
@@ -72,6 +63,7 @@ const CameraController = () => {
   useEffect(() => {
     const controls = new OrbitControls(camera, gl.domElement);
 
+    controls.dampingFactor = 0.5;
     controls.minDistance = 3;
     controls.maxDistance = 20;
     return () => {
@@ -82,32 +74,29 @@ const CameraController = () => {
 };
 
 function App() {
-  const frustumSize = 10;
-  const aspect = window.innerWidth / window.innerHeight;
-
   return (
     <Canvas
-      camera={
-        new OrthographicCamera(
-          (frustumSize * aspect) / -2,
-          (frustumSize * aspect) / 2,
-          frustumSize / 2,
-          frustumSize / -2,
-          -1000,
-          1000
-        )
-      }
+      gl={{
+        antialias: true,
+        precision: "highp",
+      }}
+      orthographic={true}
+      camera={{
+        position: [2, 3, 2],
+        zoom: 100,
+      }}
     >
-      <CameraController />
-      <PickHelper />
-      <primitive object={new AxesHelper(10)} />
-      <ambientLight intensity={0.1} />
-      <hemisphereLight intensity={0.2} position={new Vector3(0, 50, 0)} />
-      <directionalLight
-        intensity={0.2}
-        position={new Vector3(-1, 1.75, 1).multiplyScalar(10)}
-      />
-      <ModelGallery modelUrls={roadTileUrls} />
+      <scene scale={new Vector3(1, 1, 1).multiplyScalar(0.1)}>
+        <CameraController />
+        <PickHelper />
+        {/* <ambientLight intensity={0.05} /> */}
+        <hemisphereLight intensity={0.21} position={new Vector3(0, 50, 0)} />
+        <directionalLight
+          intensity={0.21}
+          position={new Vector3(-1, 1.75, 1).multiplyScalar(10)}
+        />
+        <ModelGallery modelUrls={roadTileUrls} />
+      </scene>
     </Canvas>
   );
 }
