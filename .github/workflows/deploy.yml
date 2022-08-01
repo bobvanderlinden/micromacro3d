@@ -33,7 +33,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_BASE: /micromacro3d
+          VITE_BASE: /micromacro3d/
       - name: Setup Pages
         uses: actions/configure-pages@v1
       - name: Upload artifact
