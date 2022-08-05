@@ -37,7 +37,7 @@ function App() {
         orthographic={true}
         camera={{
           position: [2, 3, 2],
-          zoom: 100,
+          zoom: 300,
         }}
       >
         <scene scale={new Vector3(1, 1, 1).multiplyScalar(0.1)}>
