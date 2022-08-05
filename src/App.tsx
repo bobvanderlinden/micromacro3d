@@ -7,8 +7,10 @@ import { Gallery } from "./components/scenes/Gallery";
 import { CameraController } from "./CameraController";
 import { PickHelper } from "./PickHelper";
 import { Roads } from "./components/scenes/Roads";
+import { Buildings } from "./components/scenes/Buildings";
 
 const scenes = {
+  Buildings,
   Roads,
   Gallery,
 };
@@ -45,7 +47,7 @@ function App() {
           <hemisphereLight intensity={0.21} position={new Vector3(0, 50, 0)} />
           <directionalLight
             intensity={0.21}
-            position={new Vector3(-1, 1.75, 1).multiplyScalar(10)}
+            position={new Vector3(0, 1.75, 1).multiplyScalar(10)}
           />
           <pointLight intensity={0.1} position={new Vector3(0, 10, 0)} />
           <Scene />

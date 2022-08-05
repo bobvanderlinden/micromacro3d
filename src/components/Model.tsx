@@ -8,14 +8,10 @@ export function Model({ url, ...props }: { url: string } & Object3DProps) {
     return null;
   }
   const gltf = useLoader(GLTFLoader, url);
-  const pivot = new Group();
   const model = gltf.scene.clone(true);
-  pivot.add(model);
-  model.scale.multiplyScalar(1 / 3);
-  model.position.add(new Vector3(-0.5, 0, 0.5));
   return (
     <Suspense fallback={null}>
-      <primitive object={pivot} {...props} />
+      <primitive object={model} {...props} />
     </Suspense>
   );
 }

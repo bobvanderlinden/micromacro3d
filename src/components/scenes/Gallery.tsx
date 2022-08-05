@@ -1,16 +1,18 @@
 import { ModelGallery } from "../ModelGallery";
+import * as buildingUrls from "../../assets/buildings/urls";
+import * as roadkitUrls from "../../assets/roadkit/urls";
+import { BuildingComponentModel } from "../../assets/buildings";
+import { RoadkitModel } from "../../assets/roadkit";
 
-const roadTileUrls = Object.entries({
-  ...import.meta.glob("../../assets/models/roads/roadTile_*.gltf", {
-    as: "url",
-    eager: true,
-  }),
-  ...import.meta.glob("../../assets/models/buildings/*.gltf", {
-    as: "url",
-    eager: true,
-  }),
-}).map(([key, value]) => value);
+const models = [
+  ...Object.values(buildingUrls).map((url) => (props) => (
+    <BuildingComponentModel url={url} {...props} />
+  )),
+  ...Object.values(roadkitUrls).map((url) => (props) => (
+    <RoadkitModel url={url} {...props} />
+  )),
+];
 
 export function Gallery() {
-  return <ModelGallery modelUrls={roadTileUrls} />;
+  return <ModelGallery models={models} spacing={1.5} />;
 }
