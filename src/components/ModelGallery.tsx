@@ -3,7 +3,7 @@ import { Model } from "./Model";
 
 export function ModelGallery({
   modelUrls,
-  spacing = 4,
+  spacing = 1.25,
 }: {
   modelUrls: string[];
   spacing?: number;
