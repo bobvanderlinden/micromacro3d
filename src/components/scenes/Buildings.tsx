@@ -25,7 +25,7 @@ function Building({ Top, Middle, Bottom, size = 0, ...props }) {
 
 function combinations(obj) {
   return Object.entries(obj).reduce(
-    (acc, [key, values]) =>
+    (acc, [key, values]: any) =>
       acc.flatMap((acc) => values.map((value) => ({ ...acc, [key]: value }))),
     [{}]
   );
