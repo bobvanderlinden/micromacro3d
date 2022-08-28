@@ -1,247 +1,274 @@
 {
-  "accessors": [
-    {
-      "name": "Mesh1 Group1 Model_1_positions",
-      "componentType": 5126,
-      "count": 48,
-      "min": [
-        0,
-        0,
-        -3
-      ],
-      "max": [
-        3,
-        1.649999976158142,
-        0
-      ],
-      "type": "VEC3",
-      "bufferView": 0,
-      "byteOffset": 0
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
     },
-    {
-      "name": "Mesh1 Group1 Model_1_normals",
-      "componentType": 5126,
-      "count": 48,
-      "min": [
-        -1,
-        -1,
-        -1
-      ],
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "type": "VEC3",
-      "bufferView": 0,
-      "byteOffset": 576
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_texcoords",
-      "componentType": 5126,
-      "count": 48,
-      "min": [
-        -3,
-        -2
-      ],
-      "max": [
-        3,
-        1
-      ],
-      "type": "VEC2",
-      "bufferView": 1,
-      "byteOffset": 0
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_0_indices",
-      "componentType": 5123,
-      "count": 6,
-      "min": [
-        0
-      ],
-      "max": [
-        3
-      ],
-      "type": "SCALAR",
-      "bufferView": 2,
-      "byteOffset": 0
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_1_indices",
-      "componentType": 5123,
-      "count": 66,
-      "min": [
-        4
-      ],
-      "max": [
-        47
-      ],
-      "type": "SCALAR",
-      "bufferView": 2,
-      "byteOffset": 12
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_2_indices",
-      "componentType": 5123,
-      "count": 12,
-      "min": [
-        32
-      ],
-      "max": [
-        39
-      ],
-      "type": "SCALAR",
-      "bufferView": 2,
-      "byteOffset": 144
-    }
-  ],
-  "asset": {
-    "generator": "obj2gltf",
-    "version": "2.0"
-  },
-  "buffers": [
-    {
-      "name": "roadTile_263",
-      "byteLength": 1704,
-      "uri": "data:application/octet-stream;base64,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"
-    }
-  ],
-  "bufferViews": [
-    {
-      "name": "bufferView_0",
-      "buffer": 0,
-      "byteLength": 1152,
-      "byteOffset": 0,
-      "byteStride": 12,
-      "target": 34962
-    },
-    {
-      "name": "bufferView_1",
-      "buffer": 0,
-      "byteLength": 384,
-      "byteOffset": 1152,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "name": "bufferView_2",
-      "buffer": 0,
-      "byteLength": 168,
-      "byteOffset": 1536,
-      "target": 34963
-    }
-  ],
-  "materials": [
-    {
-      "name": "Water",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.690196,
-          0.843137,
-          0.964706,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "alphaMode": "OPAQUE",
-      "doubleSided": false
-    },
-    {
-      "name": "Grass",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.541176,
-          0.709804,
-          0.286275,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "alphaMode": "OPAQUE",
-      "doubleSided": false
-    },
-    {
-      "name": "Stone",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.847059,
-          0.827451,
-          0.74902,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "alphaMode": "OPAQUE",
-      "doubleSided": false
-    }
-  ],
-  "meshes": [
-    {
-      "name": "Mesh1 Group1 Model_1",
-      "primitives": [
+    "scene" : 0,
+    "scenes" : [
         {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 3,
-          "material": 0,
-          "mode": 4
-        },
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 4,
-          "material": 1,
-          "mode": 4
-        },
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 5,
-          "material": 2,
-          "mode": 4
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
         }
-      ]
-    }
-  ],
-  "nodes": [
-    {
-      "name": "Mesh1 Group1 Model",
-      "mesh": 0
-    }
-  ],
-  "scene": 0,
-  "scenes": [
-    {
-      "nodes": [
-        0
-      ]
-    }
-  ]
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "roadTile_263",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Water",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6901959776878357,
+                    0.8431370258331299,
+                    0.9647060036659241,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Grass",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5411760210990906,
+                    0.7098039984703064,
+                    0.2862749993801117,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Stone",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8470590114593506,
+                    0.8274509906768799,
+                    0.749019980430603,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "roadTile_263",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                3,
+                -0.75,
+                0
+            ],
+            "min" : [
+                3,
+                -2.25,
+                -1.649999976158142
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 36,
+            "max" : [
+                3,
+                0,
+                0
+            ],
+            "min" : [
+                0,
+                -3,
+                -1.649999976158142
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 36,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 36,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 66,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 8,
+            "max" : [
+                3,
+                -0.375,
+                0
+            ],
+            "min" : [
+                3,
+                -2.625,
+                -1.649999976158142
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 8,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 8,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 48
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 96
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 432,
+            "byteOffset" : 140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 432,
+            "byteOffset" : 572
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 1004
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 132,
+            "byteOffset" : 1292
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 1424
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 1520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
+            "byteOffset" : 1616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 1680
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1704,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
 }

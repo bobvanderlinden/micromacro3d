@@ -1,203 +1,198 @@
 {
-  "accessors": [
-    {
-      "name": "Mesh1 Group1 Model_1_positions",
-      "componentType": 5126,
-      "count": 72,
-      "min": [
-        0,
-        0,
-        -3
-      ],
-      "max": [
-        3,
-        0.6299999952316284,
-        0
-      ],
-      "type": "VEC3",
-      "bufferView": 0,
-      "byteOffset": 0
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
     },
-    {
-      "name": "Mesh1 Group1 Model_1_normals",
-      "componentType": 5126,
-      "count": 72,
-      "min": [
-        -1,
-        -1,
-        -1
-      ],
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "type": "VEC3",
-      "bufferView": 0,
-      "byteOffset": 864
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_texcoords",
-      "componentType": 5126,
-      "count": 72,
-      "min": [
-        -3,
-        -2
-      ],
-      "max": [
-        3,
-        1
-      ],
-      "type": "VEC2",
-      "bufferView": 1,
-      "byteOffset": 0
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_0_indices",
-      "componentType": 5123,
-      "count": 78,
-      "min": [
-        0
-      ],
-      "max": [
-        67
-      ],
-      "type": "SCALAR",
-      "bufferView": 2,
-      "byteOffset": 0
-    },
-    {
-      "name": "Mesh1 Group1 Model_1_1_indices",
-      "componentType": 5123,
-      "count": 54,
-      "min": [
-        28
-      ],
-      "max": [
-        71
-      ],
-      "type": "SCALAR",
-      "bufferView": 2,
-      "byteOffset": 156
-    }
-  ],
-  "asset": {
-    "generator": "obj2gltf",
-    "version": "2.0"
-  },
-  "buffers": [
-    {
-      "name": "roadTile_101",
-      "byteLength": 2568,
-      "uri": "data:application/octet-stream;base64,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"
-    }
-  ],
-  "bufferViews": [
-    {
-      "name": "bufferView_0",
-      "buffer": 0,
-      "byteLength": 1728,
-      "byteOffset": 0,
-      "byteStride": 12,
-      "target": 34962
-    },
-    {
-      "name": "bufferView_1",
-      "buffer": 0,
-      "byteLength": 576,
-      "byteOffset": 1728,
-      "byteStride": 8,
-      "target": 34962
-    },
-    {
-      "name": "bufferView_2",
-      "buffer": 0,
-      "byteLength": 264,
-      "byteOffset": 2304,
-      "target": 34963
-    }
-  ],
-  "materials": [
-    {
-      "name": "Stone",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.847059,
-          0.827451,
-          0.74902,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "alphaMode": "OPAQUE",
-      "doubleSided": false
-    },
-    {
-      "name": "Grey_Asphalt",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.560784,
-          0.568627,
-          0.6,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "alphaMode": "OPAQUE",
-      "doubleSided": false
-    }
-  ],
-  "meshes": [
-    {
-      "name": "Mesh1 Group1 Model_1",
-      "primitives": [
+    "scene" : 0,
+    "scenes" : [
         {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 3,
-          "material": 0,
-          "mode": 4
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "roadTile_101",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Stone",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8470590114593506,
+                    0.8274509906768799,
+                    0.749019980430603,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
         },
         {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 4,
-          "material": 1,
-          "mode": 4
+            "doubleSided" : true,
+            "name" : "Grey_Asphalt",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5607839822769165,
+                    0.5686269998550415,
+                    0.6000000238418579,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
         }
-      ]
-    }
-  ],
-  "nodes": [
-    {
-      "name": "Mesh1 Group1 Model",
-      "mesh": 0
-    }
-  ],
-  "scene": 0,
-  "scenes": [
-    {
-      "nodes": [
-        0
-      ]
-    }
-  ]
+    ],
+    "meshes" : [
+        {
+            "name" : "roadTile_101",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 40,
+            "max" : [
+                3,
+                0,
+                0
+            ],
+            "min" : [
+                0,
+                -3,
+                -0.6299999952316284
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 78,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 32,
+            "max" : [
+                3,
+                -1.9289599657058716,
+                -0.5699999928474426
+            ],
+            "min" : [
+                1.9289599657058716,
+                -3,
+                -0.6299999952316284
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 54,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 480
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 320,
+            "byteOffset" : 960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 156,
+            "byteOffset" : 1280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 1436
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 1820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 256,
+            "byteOffset" : 2204
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 2460
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2568,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
 }
