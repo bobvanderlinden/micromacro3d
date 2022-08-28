@@ -9,6 +9,7 @@ export function Model({ url, ...props }: { url: string } & Object3DProps) {
   }
   const gltf = useLoader(GLTFLoader, url);
   const model = gltf.scene.clone(true);
+  (model as any).url = url;
   return (
     <Suspense fallback={null}>
       <primitive object={model} {...props} />

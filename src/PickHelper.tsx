@@ -38,7 +38,7 @@ export function PickHelper() {
     }
 
     if (pickedObject) {
-      console.log(pickedObject.name);
+      console.log(pickedObject.url);
       pickedObject.scale.set(1.5, 1.5, 1.5);
     }
 
