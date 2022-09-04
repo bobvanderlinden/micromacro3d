@@ -1,84 +1,11 @@
-import { ModelGallery } from "../ModelGallery";
 import { RoadkitModel } from "../../assets/roadkit";
 import * as urls from "../../assets/roadkit/urls";
-import { useMemo, useState } from "react";
-import { values } from "lodash";
+import { useState } from "react";
 import { Html } from "@react-three/drei";
 import { Gallery } from "../Gallery";
 import { BoxGeometry } from "three";
 import * as maps from "../../assets/maps";
-
-type TileData = {
-  url: string;
-};
-
-type CellData = {
-  tile: TileData;
-  rotation: Rotation;
-};
-type Rotation = 0 | 1 | 2 | 3;
-
-type GridData<TCell = CellData> = {
-  width: number;
-  height: number;
-  cells: (TCell | null)[];
-};
-
-function initGridData(
-  width: number,
-  height: number,
-  fillCell: CellData | null
-): GridData {
-  return {
-    width,
-    height,
-    cells: new Array(width * height).fill(fillCell),
-  };
-}
-
-type Coords = [number, number];
-
-class Grid<TCell = CellData> {
-  constructor(public data: GridData<TCell>) {}
-
-  getCell([x, y]: Coords) {
-    return this.data.cells[y * this.data.width + x];
-  }
-
-  setCell([x, y]: Coords, cell: TCell) {
-    this.data.cells[y * this.data.width + x] = cell;
-  }
-
-  resize([width, height]: Coords, emptyCell: TCell): Grid {
-    const newGrid = new Grid({
-      ...this.data,
-      width,
-      height,
-      cells: new Array(width * height),
-    });
-    for (let x = 0; x < width; x++) {
-      for (let y = 0; y < height; y++) {
-        const cell =
-          x < this.data.width && y < this.data.height
-            ? this.getCell([x, y])
-            : emptyCell;
-        newGrid.setCell([x, y], cell);
-      }
-    }
-    return newGrid;
-  }
-
-  *[Symbol.iterator](): Iterator<{ x: number; y: number; cell: TCell }> {
-    for (let y = 0; y < this.data.height; y++) {
-      for (let x = 0; x < this.data.width; x++) {
-        const cell = this.getCell([x, y]);
-        if (cell) {
-          yield { x, y, cell: this.getCell([x, y]) };
-        }
-      }
-    }
-  }
-}
+import { Grid, CellData, TileData, Rotation, Coords } from "../../Grid";
 
 function HoverHighlight({ children, ...props }) {
   const [isHovered, setHovered] = useState(false);
