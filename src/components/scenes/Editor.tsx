@@ -61,7 +61,7 @@ function Map({
 function Cell({ data }: { data: CellData }) {
   return (
     <RoadkitModel
-      url={data.tile.url}
+      url={urls[data.tile.name]}
       rotation={[0, data.rotation * Math.PI * 0.5, 0]}
     />
   );

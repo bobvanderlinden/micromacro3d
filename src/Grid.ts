@@ -1,5 +1,5 @@
 export type TileData = {
-  url: string;
+  name: string;
 };
 export type CellData = {
   tile: TileData;

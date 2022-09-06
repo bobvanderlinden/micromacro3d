@@ -3,1347 +3,1347 @@
   "height": 16,
   "cells": [
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 3
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 2
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 3
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_150.gltf" },
+      "tile": { "name": "roadTile150" },
       "rotation": 3
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 2
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_150.gltf" },
+      "tile": { "name": "roadTile150" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_141.gltf" },
+      "tile": { "name": "roadTile141" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_150.gltf" },
+      "tile": { "name": "roadTile150" },
       "rotation": 2
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 3
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 2
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_150.gltf" },
+      "tile": { "name": "roadTile150" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 3
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 2
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_162.gltf" },
+      "tile": { "name": "roadTile162" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_153.gltf" },
+      "tile": { "name": "roadTile153" },
       "rotation": 1
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     },
     {
-      "tile": { "url": "/src/assets/roadkit/roadTile_163.gltf" },
+      "tile": { "name": "roadTile163" },
       "rotation": 0
     }
   ]
