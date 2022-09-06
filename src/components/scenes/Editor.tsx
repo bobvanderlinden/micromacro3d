@@ -68,7 +68,7 @@ function Cell({ data }: { data: CellData }) {
 }
 
 const tiles = Object.fromEntries(
-  Object.entries(urls).map(([key, url]) => [key, { url }])
+  Object.entries(urls).map(([name, _]) => [name, { name }])
 );
 
 const emptyTile: TileData = tiles.roadTile163;
