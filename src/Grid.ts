@@ -6,20 +6,27 @@ export type CellData = {
   rotation: Rotation;
 };
 export type Rotation = 0 | 1 | 2 | 3;
-type GridData<TCell = CellData> = {
+export type GridData<TCell = CellData> = {
   width: number;
   height: number;
   cells: (TCell | null)[];
 };
-function initGridData(
+export function initGridData<TCell = CellData>(
   width: number,
   height: number,
-  fillCell: CellData | null
-): GridData {
+  fillCell: (coords: Coords, index: number) => TCell | null
+): GridData<TCell> {
+  const cells = new Array(width * height);
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      const index = x + y * width;
+      cells[index] = fillCell([x, y], index);
+    }
+  }
   return {
     width,
     height,
-    cells: new Array(width * height).fill(fillCell),
+    cells,
   };
 }
 export type Coords = [number, number];
@@ -27,10 +34,14 @@ export class Grid<TCell = CellData> {
   constructor(public data: GridData<TCell>) {}
 
   getCell([x, y]: Coords) {
+    x = (x + this.data.width) % this.data.width;
+    y = (y + this.data.height) % this.data.height;
     return this.data.cells[y * this.data.width + x];
   }
 
   setCell([x, y]: Coords, cell: TCell) {
+    x = (x + this.data.width) % this.data.width;
+    y = (y + this.data.height) % this.data.height;
     this.data.cells[y * this.data.width + x] = cell;
   }
 

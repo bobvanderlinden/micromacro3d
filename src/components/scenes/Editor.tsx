@@ -5,7 +5,15 @@ import { Html } from "@react-three/drei";
 import { Gallery } from "../Gallery";
 import { BoxGeometry } from "three";
 import * as maps from "../../assets/maps";
-import { Grid, CellData, TileData, Rotation, Coords } from "../../Grid";
+import {
+  Grid,
+  CellData,
+  TileData,
+  Rotation,
+  Coords,
+  GridData,
+} from "../../Grid";
+import { start } from "../../waveFunction";
 
 function HoverHighlight({ children, ...props }) {
   const [isHovered, setHovered] = useState(false);
@@ -102,7 +110,7 @@ export function Editor() {
     const [name, gridData] = Object.entries(maps)[0];
     return {
       name,
-      grid: new Grid(gridData),
+      grid: new Grid(gridData as GridData),
     };
   });
   return (
@@ -184,6 +192,13 @@ export function Editor() {
             }}
           >
             Copy to clipboard
+          </button>
+          <button
+            onClick={(e) => {
+              setMap({ name, grid: start(new Grid(maps[name])) });
+            }}
+          >
+            WFC
           </button>
           <select
             value={name}

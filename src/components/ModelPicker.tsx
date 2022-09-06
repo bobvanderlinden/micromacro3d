@@ -1,4 +1,5 @@
-import { Vector3 } from "three";
+import { ChangeEvent } from "react";
+import { Object3D, Vector3 } from "three";
 
 export function ModelPicker({
   models,
