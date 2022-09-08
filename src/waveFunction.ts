@@ -131,19 +131,29 @@ export class WaveFunctionCollapse<TCell> {
         if (isCollapsed(neighborPossibilities)) {
           continue;
         }
-        for (const neighborPossibility of [...neighborPossibilities]) {
-          const isPossible = possibilities.some((cell) =>
-            this.oracle.has({ cell, rotation, neighbor: neighborPossibility })
-          );
-          if (!isPossible) {
-            assert(
-              neighborPossibilities.length > 1,
-              `neighborPossibilities.length is ${neighborPossibilities.length}`
-            );
-            remove(neighborPossibilities, neighborPossibility);
-            stack.push(neighborCoords);
-          }
+
+        const newNeighborPossiblities = neighborPossibilities.filter(
+          (neighborPossibility) =>
+            possibilities.some((cell) =>
+              this.oracle.has({ cell, rotation, neighbor: neighborPossibility })
+            )
+        );
+
+        // We found a situation that we couldn't resolve with the currently picked conditions.
+        // We push this coord to be handled at a later time in the hope it can be handled then.
+        // We won't apply the changes, as that would result in 0 combinations for this neighboring cell.
+        if (newNeighborPossiblities.length === 0) {
+          stack.push(neighborCoords);
+          continue;
         }
+
+        // When there was no possibility removed, we can just continue to the next neighbor.
+        if (newNeighborPossiblities.length === neighborPossibilities.length) {
+          continue;
+        }
+
+        this.grid.setCell(neighborCoords, newNeighborPossiblities);
+        stack.push(neighborCoords);
       }
     }
   }
