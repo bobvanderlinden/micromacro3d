@@ -12,10 +12,10 @@ import { Editor } from "./components/scenes/Editor";
 import { OrbitControls } from "@react-three/drei";
 
 const scenes = {
+  Editor,
   Buildings,
   Roads,
   Gallery,
-  Editor,
 };
 
 function App() {
