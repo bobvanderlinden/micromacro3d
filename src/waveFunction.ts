@@ -27,18 +27,25 @@ type CompatiblityOracleEntry<TCell> = {
   neighbor: TCell;
 };
 export class CompatiblityOracle<TCell> {
-  private lookup: Set<string> = new Set();
+  private lookup: Map<string, number> = new Map();
 
   hash({ cell, rotation, neighbor }: CompatiblityOracleEntry<TCell>) {
     return JSON.stringify({ cell, rotation, neighbor });
   }
 
   add(entry: CompatiblityOracleEntry<TCell>): void {
-    this.lookup.add(this.hash(entry));
+    const hash = this.hash(entry);
+    const previousValue = this.lookup.get(hash) ?? 0;
+    this.lookup.set(hash, previousValue + 1);
   }
 
-  has(entry: CompatiblityOracleEntry<TCell>): boolean {
-    return this.lookup.has(this.hash(entry));
+  delete(entry: CompatiblityOracleEntry<TCell>) {
+    const hash = this.hash(entry);
+    this.lookup.delete(hash);
+  }
+
+  get(entry: CompatiblityOracleEntry<TCell>): number {
+    return this.lookup.get(this.hash(entry)) ?? 0;
   }
 
   addGrid(grid: Grid<TCell>) {
@@ -72,15 +79,14 @@ function add([ax, ay]: Coords, [bx, by]: Coords): Coords {
   return [ax + bx, ay + by];
 }
 
-function remove<T>(items: T[], item: T) {
-  const index = items.indexOf(item);
-  items.splice(index, 1);
-}
-
 type Combinations<T> = T[];
 
 function isCollapsed(combinations: Combinations<any>) {
   return combinations.length === 1;
+}
+
+function sum(items: number[]) {
+  return items.reduce((a, b) => a + b, 0);
 }
 
 export class WaveFunctionCollapse<TCell> {
@@ -92,6 +98,19 @@ export class WaveFunctionCollapse<TCell> {
 
   pick<T>(items: T[]): T {
     return items[this.rnd(0, items.length - 1)];
+  }
+
+  pickWeighted<T>(cellScores: [T, number][]): T {
+    const totalScore = sum(cellScores.map(([_, score]) => score));
+    let pickedScore = this.rnd(0, totalScore);
+    while (true) {
+      const [cell, score] = cellScores.pop();
+      pickedScore -= score;
+      if (pickedScore <= 0) {
+        return cell;
+      }
+    }
+    return null;
   }
 
   findMinimumEntropy() {
@@ -113,7 +132,21 @@ export class WaveFunctionCollapse<TCell> {
 
   collapse(coords: Coords) {
     const combinations = this.grid.getCell(coords);
-    const chosen = this.pick(combinations);
+    const cellScores = combinations.map((cell) => {
+      const score = sum(
+        rotations.map((rotation) => {
+          const neighborCoords = add(coords, rotationCoord(rotation));
+          return sum(
+            this.grid
+              .getCell(neighborCoords)
+              .map((neighbor) => this.oracle.get({ cell, rotation, neighbor }))
+          );
+        })
+      );
+      return [cell, score] as [TCell, number];
+    });
+
+    const chosen = this.pickWeighted(cellScores);
     debug("collapsed", coords, "to", chosen);
     this.grid.setCell(coords, [chosen]);
   }
@@ -128,14 +161,22 @@ export class WaveFunctionCollapse<TCell> {
       for (const rotation of rotations) {
         const neighborCoords = add(coords, rotationCoord(rotation));
         const neighborPossibilities = this.grid.getCell(neighborCoords);
+
+        // Skip this neighbor if it is already collapsed.
         if (isCollapsed(neighborPossibilities)) {
           continue;
         }
 
+        // Remove all combinations that aren't possible in the neighboring cell.
         const newNeighborPossiblities = neighborPossibilities.filter(
           (neighborPossibility) =>
-            possibilities.some((cell) =>
-              this.oracle.has({ cell, rotation, neighbor: neighborPossibility })
+            possibilities.some(
+              (cell) =>
+                this.oracle.get({
+                  cell,
+                  rotation,
+                  neighbor: neighborPossibility,
+                }) > 0
             )
         );
 
