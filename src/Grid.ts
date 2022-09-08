@@ -64,6 +64,10 @@ export class Grid<TCell = CellData> {
     return newGrid;
   }
 
+  clone() {
+    return new Grid<TCell>({ ...this.data, cells: [...this.data.cells] });
+  }
+
   *[Symbol.iterator](): Iterator<{ x: number; y: number; cell: TCell }> {
     for (let y = 0; y < this.data.height; y++) {
       for (let x = 0; x < this.data.width; x++) {

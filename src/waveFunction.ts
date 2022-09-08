@@ -71,6 +71,10 @@ const rotationCoords: Coords[] = [
   [0, -1],
 ];
 
+function neighborCoord(coords: Coords, rotation: Rotation): Coords {
+  return add(coords, rotationCoord(rotation));
+}
+
 function rotationCoord(rotation: Rotation): Coords {
   return rotationCoords[rotation];
 }
@@ -87,6 +91,15 @@ function isCollapsed(combinations: Combinations<any>) {
 
 function sum(items: number[]) {
   return items.reduce((a, b) => a + b, 0);
+}
+
+function attempt(attempts: number, attemptFn) {
+  for (let attempt = 0; attempt < attempts; attempt++) {
+    if (attemptFn()) {
+      return true;
+    }
+  }
+  return false;
 }
 
 type WaveFunctionCollapseOptions<TCell> = {
@@ -126,7 +139,7 @@ export class WaveFunctionCollapse<TCell>
     const cellScores = combinations.map((cell) => {
       const score = sum(
         rotations.map((rotation) => {
-          const neighborCoords = add(coords, rotationCoord(rotation));
+          const neighborCoords = neighborCoord(coords, rotation);
           return sum(
             this.grid
               .getCell(neighborCoords)
@@ -175,13 +188,8 @@ export class WaveFunctionCollapse<TCell>
 
       const possibilities = this.grid.getCell(coords);
       for (const rotation of rotations) {
-        const neighborCoords = add(coords, rotationCoord(rotation));
+        const neighborCoords = neighborCoord(coords, rotation);
         const neighborPossibilities = this.grid.getCell(neighborCoords);
-
-        // Skip this neighbor if it is already collapsed.
-        if (isCollapsed(neighborPossibilities)) {
-          continue;
-        }
 
         // Remove all combinations that aren't possible in the neighboring cell.
         const newNeighborPossiblities = neighborPossibilities.filter(
@@ -197,11 +205,10 @@ export class WaveFunctionCollapse<TCell>
         );
 
         // We found a situation that we couldn't resolve with the currently picked conditions.
-        // We push this coord to be handled at a later time in the hope it can be handled then.
-        // We won't apply the changes, as that would result in 0 combinations for this neighboring cell.
+        // Backtracking to a solution that does work here is prone to take a long time.
+        // We're going to bail here and just start this WFC step over.
         if (newNeighborPossiblities.length === 0) {
-          stack.push(neighborCoords);
-          continue;
+          return false;
         }
 
         // When there was no possibility removed, we can just continue to the next neighbor.
@@ -209,27 +216,43 @@ export class WaveFunctionCollapse<TCell>
           continue;
         }
 
+        // This neighbor has its possibilities shrunken down.
+        // Since this neighbor now has less possibilities, its neighbors might
+        // also have less possibilities. We're going to propagate to this neighbor.
         this.grid.setCell(neighborCoords, newNeighborPossiblities);
         stack.push(neighborCoords);
       }
     }
+    return true;
   }
 
   isFullyCollapsed() {
     return this.grid.data.cells.every(isCollapsed);
   }
 
-  step() {
-    const coords = this.findMinimumEntropy();
-    debug("findMinimumEntropy", coords, this.grid.getCell(coords));
-    this.collapse(coords);
-    this.propagate(coords);
+  step(): boolean {
+    const backup = this.grid.clone();
+    return attempt(10, () => {
+      const coords = this.findMinimumEntropy();
+      debug("findMinimumEntropy", coords, this.grid.getCell(coords));
+      this.collapse(coords);
+      if (this.propagate(coords)) {
+        return true;
+      }
+      this.grid = backup.clone();
+      return false;
+    });
   }
 
   run() {
-    while (!this.isFullyCollapsed()) {
-      this.step();
-    }
+    attempt(5, () => {
+      while (!this.isFullyCollapsed()) {
+        if (!this.step()) {
+          return false;
+        }
+      }
+      return true;
+    });
 
     return new Grid({
       ...this.grid.data,
