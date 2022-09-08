@@ -131,17 +131,6 @@ export class WaveFunctionCollapse<TCell> {
         if (isCollapsed(neighborPossibilities)) {
           continue;
         }
-        debug({
-          current: {
-            coords,
-            possibilities,
-          },
-          neighbor: {
-            coords: neighborCoords,
-            possibilities: neighborPossibilities,
-          },
-        });
-
         for (const neighborPossibility of [...neighborPossibilities]) {
           const isPossible = possibilities.some((cell) =>
             this.oracle.has({ cell, rotation, neighbor: neighborPossibility })
