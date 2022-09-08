@@ -89,12 +89,21 @@ function sum(items: number[]) {
   return items.reduce((a, b) => a + b, 0);
 }
 
-export class WaveFunctionCollapse<TCell> {
-  constructor(
-    public grid: Grid<Combinations<TCell>>,
-    public oracle: CompatiblityOracle<TCell>,
-    public rnd: (min: number, max: number) => number = (min, max) => min
-  ) {}
+type WaveFunctionCollapseOptions<TCell> = {
+  grid: Grid<Combinations<TCell>>;
+  oracle: CompatiblityOracle<TCell>;
+  rnd: (min: number, max: number) => number;
+};
+
+export class WaveFunctionCollapse<TCell>
+  implements WaveFunctionCollapseOptions<TCell>
+{
+  public grid: Grid<Combinations<TCell>>;
+  public oracle: CompatiblityOracle<TCell>;
+  public rnd: (min: number, max: number) => number;
+  constructor(options: WaveFunctionCollapseOptions<TCell>) {
+    Object.assign(this, options);
+  }
 
   pick<T>(items: T[]): T {
     return items[this.rnd(0, items.length - 1)];
@@ -110,7 +119,25 @@ export class WaveFunctionCollapse<TCell> {
         return cell;
       }
     }
-    return null;
+  }
+
+  pickCell(coords: Coords): TCell {
+    const combinations = this.grid.getCell(coords);
+    const cellScores = combinations.map((cell) => {
+      const score = sum(
+        rotations.map((rotation) => {
+          const neighborCoords = add(coords, rotationCoord(rotation));
+          return sum(
+            this.grid
+              .getCell(neighborCoords)
+              .map((neighbor) => this.oracle.get({ cell, rotation, neighbor }))
+          );
+        })
+      );
+      return [cell, score] as [TCell, number];
+    });
+
+    return this.pickWeighted(cellScores);
   }
 
   findMinimumEntropy() {
@@ -131,24 +158,13 @@ export class WaveFunctionCollapse<TCell> {
   }
 
   collapse(coords: Coords) {
-    const combinations = this.grid.getCell(coords);
-    const cellScores = combinations.map((cell) => {
-      const score = sum(
-        rotations.map((rotation) => {
-          const neighborCoords = add(coords, rotationCoord(rotation));
-          return sum(
-            this.grid
-              .getCell(neighborCoords)
-              .map((neighbor) => this.oracle.get({ cell, rotation, neighbor }))
-          );
-        })
-      );
-      return [cell, score] as [TCell, number];
-    });
-
-    const chosen = this.pickWeighted(cellScores);
+    const chosen = this.pickCell(coords);
     debug("collapsed", coords, "to", chosen);
-    this.grid.setCell(coords, [chosen]);
+    this.collapseTo(coords, chosen);
+  }
+
+  collapseTo(coords: Coords, cell: TCell) {
+    this.grid.setCell(coords, [cell]);
   }
 
   propagate(startingCoords: Coords) {
@@ -221,7 +237,10 @@ export class WaveFunctionCollapse<TCell> {
     });
   }
 
-  static fromGrid<TCell>(sourceGrid: Grid<TCell>): WaveFunctionCollapse<TCell> {
+  static fromGrid<TCell>(
+    sourceGrid: Grid<TCell>,
+    options: Omit<WaveFunctionCollapseOptions<TCell>, "grid" | "oracle">
+  ): WaveFunctionCollapse<TCell> {
     const oracle = new CompatiblityOracle();
     oracle.addGrid(sourceGrid);
 
@@ -236,12 +255,13 @@ export class WaveFunctionCollapse<TCell> {
       ])
     );
 
-    return new WaveFunctionCollapse<TCell>(grid, oracle);
+    return new WaveFunctionCollapse<TCell>({ grid, oracle, ...options });
   }
 }
 
 export function start(sourceGrid: Grid): Grid {
-  const wfc = WaveFunctionCollapse.fromGrid<CellData>(sourceGrid);
-  wfc.rnd = (min, max) => min + Math.round((max - min) * Math.random());
+  const wfc = WaveFunctionCollapse.fromGrid<CellData>(sourceGrid, {
+    rnd: (min, max) => min + Math.round((max - min) * Math.random()),
+  });
   return wfc.run();
 }
